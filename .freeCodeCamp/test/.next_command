@@ -8,3 +8,8 @@ git status
 git add .freeCodeCamp/test/.cwd
 git status
 git add --all
+git status
+git commit -m "Complete DB"
+git push
+git push --set-upstream origin main
+psql --username=freecodecamp --dbname=postgres
